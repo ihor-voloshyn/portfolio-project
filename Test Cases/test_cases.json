@@ -1,13 +1,38 @@
-{
-  "TestCase_id":"1",
-  "Title":"Total price should reflect the product quantity",
-  "Steps":
-  {
-    "1":"Go to any Category",
-    "2":"Add any item to the Cart",
-    "3":"Go to the Cart",
-    "4":"Change quantity of the product",
-    "5":"Go to the Payment page"
-  },
-  "Expected result":"Total price should reflect to the quantity of the product"
-}
+[
+    {
+        "Expected result": "Total price should reflect to the quantity of the product",
+        "Steps": {
+            "1": "Go to any Category",
+            "2": "Add any item to the Cart",
+            "3": "Go to the Cart",
+            "4": "Change quantity of the product",
+            "5": "Go to the Payment page"
+        },
+        "TestCase_id": "1",
+        "Title": "Total price should reflect the product quantity"
+    },
+    {
+        "Expected result": "Total price should reflect to the quantity of the product",
+        "Steps": {
+            "1": "Go to any Category",
+            "2": "Add any item to the Cart",
+            "3": "Go to the Cart",
+            "4": "Change quantity of the product",
+            "5": "Go to the Payment page"
+        },
+        "TestCase_id": "2",
+        "Title": "Total price should reflect the product quantity"
+    },
+    {
+        "Expected result": "Total price should reflect to the quantity of the product",
+        "Steps": {
+            "1": "Go to any Category",
+            "2": "Add any item to the Cart",
+            "3": "Go to the Cart",
+            "4": "Change quantity of the product",
+            "5": "Go to the Payment page"
+        },
+        "TestCase_id": "3",
+        "Title": "Total price should reflect the product quantity"
+    }
+]
