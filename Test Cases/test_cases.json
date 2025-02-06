@@ -1,0 +1,53 @@
+[
+    {
+        "Expected result": "Total price should reflect to the quantity of the product",
+        "Steps": {
+            "1": "Go to any Category",
+            "2": "Add any item to the Cart",
+            "3": "Go to the Cart",
+            "4": "Change quantity of the product",
+            "5": "Go to the Payment page"
+        },
+        "TestCase_id": "1",
+        "Title": "Total price should reflect the product quantity"
+    },
+    {
+        "Expected result": "User should be able to remove an item from the cart",
+        "Steps": {
+            "1": "Go to any Category",
+            "2": "Add two different items to the Cart",
+            "3": "Go to the Cart",
+            "4": "Remove one item",
+            "5": "Verify that the removed item is no longer in the Cart"
+        },
+        "TestCase_id": "2",
+        "Title": "Removing an item from the cart"
+    },
+    {
+        "Expected result": "Discount should be applied correctly when a promo code is used",
+        "Steps": {
+            "1": "Go to any Category",
+            "2": "Add any item to the Cart",
+            "3": "Go to the Cart",
+            "4": "Proceed to the Payment page",
+            "5": "Enter a valid promo code",
+            "6": "Verify that the total price reflects the discount"
+        },
+        "TestCase_id": "3",
+        "Title": "Applying a promo code to the order"
+    },
+    {
+        "Expected result": "User should be able to complete the checkout process successfully",
+        "Steps": {
+            "1": "Go to any Category",
+            "2": "Add any item to the Cart",
+            "3": "Go to the Cart",
+            "4": "Proceed to the Payment page",
+            "5": "Enter valid payment details",
+            "6": "Confirm the order",
+            "7": "Verify that the order confirmation page is displayed"
+        },
+        "TestCase_id": "4",
+        "Title": "Successful order placement"
+    }
+]
